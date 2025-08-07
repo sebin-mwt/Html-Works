@@ -1,0 +1,141 @@
+websites - unsplash , mycolor space , pexels
+
+
+---CSS----
+
+Border values - dotted,dashed,solid,double,groove,ridge,inset,outset,none,hidden
+
+Tooltip - <p title="I'm a tooltip">
+
+Text Formats -
+
+    <b> - Bold text
+    <strong> - Important text
+    <i>  - Italic text
+    <em> - Emphasized text
+    <mark> - Marked text
+    <small> - Smaller text
+    <del> - Deleted text
+    <ins> - Inserted text
+    <sub> - Subscript text
+    <sup> - Superscript text
+
+
+Tag	    -   Description
+
+<abbr>	        Defines an abbreviation or acronym
+<address>	    Defines contact information for the author/owner of a document
+<blockquote>	Defines a section that is quoted from another source
+<cite>	        Defines the title of a work
+<q>	            Defines a short inline quotation
+
+target attribute :
+
+
+_self   -   Default. Opens the document in the same window/tab as it was clicked
+_blank  -   Opens the document in a new window or tab
+_parent -   Opens the document in the parent frame
+_top    -   Opens the document in the full body of the 
+
+
+Map (Image)
+
+values -
+rect - defines a rectangular region
+circle - defines a circular region
+poly - defines a polygonal region
+default - defines the entire region
+
+
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+</map>
+
+Property		Example Value
+
+background-color	    #f0f0f0, red, rgba(0,0,0,0.5)
+background-image	     url("bg.jpg")
+background-repeat	    no-repeat, repeat-x
+background-position	  center, top left, 10px 20px
+background-size		    cover, contain, 100px 200px
+background-attachment	    scroll, fixed, local
+background-clip		        border-box, padding-box
+background-origin       	content-box, border-box
+background-blend-mode	    multiply, screen, overlay
+background (shorthand)	  url("bg.jpg") no-repeat center/c
+
+
+<table>		Defines a table
+<th>		Defines a header cell in a table
+<tr>		Defines a row in a table
+<td>		Defines a cell in a table
+<caption>	Defines a table caption
+<colgroup>	Specifies a group of one or more columns in a table for formatting
+<col>		Specifies column properties for each column within a <colgroup> element
+<thead>		Groups the header content in a table
+<tbody>		Groups the body content in a table
+<tfoot>		Groups the footer content in a table
+
+
+Semantic Tags 
+
+  -nav
+  -footer
+  -div
+  -section
+  
+
+feildset - to make border over the Formats
+
+legend -   used inside the feildset to put the heading in the border
+
+text-align : center
+
+text - decoration : (value)
+
+------SELECTERS IN CSS --------
+
+
+  using tag  (h1,h2,span etc)
+
+        tagename{
+
+          property : value;
+          so on....
+        }      
+
+  using id 
+
+        #tagename{
+          property : value;
+          so on...
+        }
+
+  using class 
+
+        .class_name{
+            
+            property : value;
+            so on...
+
+        }
+
+----------Boxmodel-----------
+
+margin 
+padding
+border
+
+
+---------flexbox---------------
+
+display : flex;  (to align datas in same row, give to parent)
+
+justify-content : space-between, space- around, space-evenly  (align horizontally)
+
+align-items:  centre, flex-end, flex-start  (align-horizontally)
+
+line-height -- To increase gap between lines 

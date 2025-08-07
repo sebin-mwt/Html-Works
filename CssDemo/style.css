@@ -1,0 +1,20 @@
+/* div p{
+color: red;
+text-align: center;
+} */
+
+ol > li{
+    color: aquamarine;
+}
+
+ul li {
+  color: black;
+}
+
+/* h1 +  p{
+    color: rgb(3, 116, 116);
+} */
+
+h1~p{
+    color: yellowgreen;
+}
